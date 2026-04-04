@@ -1,0 +1,35 @@
+# Web framework
+fastapi==0.115.0
+
+# ASGI server
+uvicorn[standard]==0.30.6
+
+# Database ORM
+sqlalchemy==2.0.36
+
+# Data validation (with email support)
+pydantic==2.9.2
+pydantic[email]==2.9.2
+pydantic-settings==2.6.0
+
+# JWT authentication
+python-jose[cryptography]==3.3.0
+
+# Password hashing
+passlib[bcrypt]==1.7.4
+
+# Form data parsing (required for OAuth2 login form)
+python-multipart==0.0.12
+
+# Email validator (required by pydantic[email])
+email-validator==2.2.0
+
+# Testing
+pytest==8.3.3
+httpx==0.27.2
+
+# Cryptography backend (required by python-jose)
+cryptography==43.0.3
+
+# bcrypt backend (required by passlib)
+bcrypt==4.2.0
